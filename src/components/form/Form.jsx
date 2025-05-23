@@ -65,7 +65,8 @@ function Form() {
 
         if (validateForm()) {
             try {
-                const backendUrl = 'http://localhost:5000/api/submit-lead';
+                // const backendUrl = 'http://localhost:5000/api/submit-lead';
+                const backendUrl = 'https://lead-generation-system-backend.onrender.com/api/submit-lead';
 
                 //axios call
                 const response = await axios.post(backendUrl, formData);
