@@ -69,7 +69,11 @@ function Form() {
                 const backendUrl = 'https://lead-generation-system-backend.onrender.com/api/submit-lead';
 
                 //axios call
-                const response = await axios.post(backendUrl, formData);
+                const response = await axios.post(backendUrl, formData, {
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                });
                 // console.log(response);
                 if (response.status === 200) {
                     setSubmissionStatus('success');
