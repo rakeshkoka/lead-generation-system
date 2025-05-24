@@ -17,6 +17,6 @@ This is the frontend of a simple lead generation system built with **React**, **
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/lead-generation-frontend.git
+git clone https://github.com/rakeshkoka/lead-generation-system.git
 cd lead-generation-frontend
 npm install
