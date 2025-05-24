@@ -29,24 +29,13 @@ Before you begin, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/lead-generation-frontend.git
-cd lead-generation-frontend
+git clone https://github.com/rakeshkoka/lead-generation-system.git
+cd lead-generation-system
 ```
 
 ### 2. Install Dependencies
 ```bash
 npm install
-```
-
-### 3. Environment Setup
-Create a `.env` file in the root directory:
-```env
-VITE_BACKEND_URL=http://localhost:5000/api/submit-lead
-```
-
-For production, use your deployed backend URL:
-```env
-VITE_BACKEND_URL=https://your-backend-url.onrender.com/api/submit-lead
 ```
 
 ### 4. Start Development Server
@@ -65,11 +54,8 @@ frontend/
 │   └── favicon.ico
 ├── src/
 │   ├── components/
-│   │   ├── LeadForm.jsx
-│   │   ├── Header.jsx
-│   │   └── Footer.jsx
-│   ├── utils/
-│   │   └── api.js
+|   |   ├── form/
+│   │   └── Form.jsx
 │   ├── styles/
 │   │   └── index.css
 │   ├── App.jsx
@@ -133,12 +119,12 @@ The project uses Tailwind CSS. Modify styles in:
 
 ### Form Fields
 To add/modify form fields:
-1. Update the form component in `src/components/LeadForm.jsx`
+1. Update the form component in `src/components/form/Form.jsx`
 2. Update validation logic
 3. Ensure backend API accepts the new fields
 
 ### API Configuration
-Update API settings in `src/utils/api.js`:
+Update API settings in `src/components/form/Form.jsx`:
 ```javascript
 const API_BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
@@ -197,10 +183,6 @@ Content-Type: application/json
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🆘 Support
 
 If you encounter any issues:
@@ -211,11 +193,11 @@ If you encounter any issues:
 
 ## 🔗 Related Repositories
 
-- [Backend Repository](https://github.com/yourusername/lead-generation-backend)
-- [Complete System Documentation](https://github.com/yourusername/lead-generation-docs)
+- [Backend Repository](https://github.com/rakeshkoka/lead-generation-system-backend.git)
+- [Complete System Documentation](https://docs.google.com/document/d/11QkuW50WU_SNdSLQE3ywvxXIJx0ESL34/edit?usp=sharing&ouid=116430246273662677638&rtpof=true&sd=true)
 
 ---
 
-**Live Demo**: [https://your-frontend.vercel.app](https://your-frontend.vercel.app)
+**Live Demo**: [https://your-frontend.vercel.app](https://lead-generation-system.vercel.app/)
 
-**Backend API**: [https://your-backend.onrender.com](https://your-backend.onrender.com)
+**Backend API**: [https://your-backend.onrender.com](https://lead-generation-system-backend.onrender.com)
