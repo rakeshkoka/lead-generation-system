@@ -197,6 +197,6 @@ If you encounter any issues:
 
 ---
 
-**Live Demo**: [https://your-frontend.vercel.app](https://lead-generation-system.vercel.app/)
+**Live Demo**: [https://lead-generation-system.vercel.app/](https://lead-generation-system.vercel.app/)
 
-**Backend API**: [https://your-backend.onrender.com](https://lead-generation-system-backend.onrender.com)
+**Backend API**: [https://lead-generation-system-backend.onrender.com](https://lead-generation-system-backend.onrender.com)
