@@ -188,8 +188,7 @@ Content-Type: application/json
 If you encounter any issues:
 
 1. Check the [Troubleshooting](#-troubleshooting) section
-2. Search existing [GitHub Issues](https://github.com/yourusername/lead-generation-frontend/issues)
-3. Create a new issue with detailed information
+2. Create a new issue with detailed information
 
 ## 🔗 Related Repositories
 
